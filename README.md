@@ -81,87 +81,59 @@ A card visual was used to represent Total Revenue.
 
  ![image](https://github.com/user-attachments/assets/712ef5e5-dfe3-4315-9b81-bada188c295f)
 
-# Insights
+## Key Insights
 
-A single page report was created on Power BI Desktop
+### Best-Performing Pizzas
+- **Top 5 Bestselling Pizzas:**
+  1. **Fresh Veggie:** 23.16%
+  2. **Double Cheese Margherita:** 21.9%
+  3. **Cheese n Corn:** 19.46%
+  4. **Deluxe Veggie:** 17.86%
+  5. **Chicken Golden Delight:** 17.86%
 
-Following inferences can be drawn from the dashboard;
+### Revenue Insights
+- **Top 5 Products by Revenue:**
+  1. **Chicken Golden Delight:** 1,563,919
+  2. **Fresh Veggie:** 1,460,037
+  3. **Deluxe Veggie:** 1,207,564
+  4. **Double Cheese Margherita:** 1,250,508
+  5. **Indi Tandoori Paneer:** 1,212,383
 
-### [1] Total Number of Customers = 129880
+### Sales Insights
+- **Quantity Sold by Category:**
+  - **Veg Pizza:** 27K
+  - **Non-Veg Pizza:** 15K
+  - **Taco:** 4K
+  - **Cake:** 1K
+  - **Others:** 0K (Not contributing significantly)
 
-   Number of satisfied Customers (Male) = 28159 (21.68 %)
+### Least Selling Products
+- **Red Velvet:** 289
+- **Crinkle Fries:** 276
+- **Veg Loaded:** 276
+- **Non-Veg Loaded:** 99
+- **Garlic Breadsticks:** 28
 
-   Number of satisfied Customers (Female) = 28269 (21.76 %)
+### Sales Trends
+- **Monthly Sales:**
+  - Peak in July with 4,299 sales.
+  - Steady sales around 4,000 units per month.
+- **Weekly Sales:**
+  - Highest sales on Sunday with 8.1K.
+  - Steady sales through the week with a drop on Tuesday (5.9K).
 
-   Number of neutral/unsatisfied customers (Male) = 35822 (27.58 %)
+### Price Range Insights
+- Majority of sales (38.7%) in the price range 200-400.
+- Sales gradually decrease as the price range increases.
 
-   Number of neutral/unsatisfied customers (Female) = 37630 (28.97 %)
+### Pizza Size Insights
+- **Large (L):** 34.8%
+- **Regular (R):** 34.7%
+- **Medium (M):** 30.4%
 
+### Conclusion
+- **Top-Performing Pizza:** Fresh Veggie, both in terms of quantity sold and revenue generated.
+- **Popular Pizza Sizes:** Large and Regular sizes are almost equally popular.
+- **Sales Trends:** Higher sales towards the end of the week, especially on Fridays.
+- **Revenue Generation:** Chicken Golden Delight leads in revenue, indicating a high price point or high sales volume.
 
-           thus, higher number of customers are neutral/unsatisfied.
-           
-### [2] Average Ratings
-
-    a) Baggage Handling - 3.63/5
-    b) Check-in Service - 3.31/5
-    c) Cleanliness - 3.29/5
-    d) Ease of online booking - 2.88/5
-    e) Food & Drink - 3.21/5
-    f) In-flight Entertainment - 3.36/5
-    g) In-flight service - 3.64/5
-    h) In-flight Wifi service - 2.81/5
-    i) Leg room service - 3.37/5
-    j) On-board service - 3.38/5
-    k) Online boarding - 3.33/5
-    l) Seat comfort - 3.44/5
-    m) Departure & arrival convenience - 3.22/5
-  
-  while calculating average rating, null values have been ignored as they were not relevant for some customers. 
-  
-  These ratings will change if different visual filters will be applied.  
-  
-  ### [3] Average Delay 
-  
-      a) Average delay in arrival(minutes) - 15.09
-      b) Average delay in departure(minutes) - 14.71
-Average delay will change if different visual filters will be applied.
-
- ### [4] Some other insights
- 
- ### Class
- 
- 1.1) 47.87 % customers travelled by Business class.
- 
- 1.2) 44.89 % customers travelled by Economy class.
- 
- 1.3) 7.25 % customers travelled by Economy plus class.
- 
-         thus, maximum customers travelled by Business class.
- 
- ### Age Group
- 
- 2.1)  21.69 % customers belong to '0-25' age group.
- 
- 2.2)  52.44 % customers belong to '25-50' age group.
- 
- 2.3)  25.57 % customers belong to '50-75' age group.
- 
- 2.4)  0.31 % customers belong to '75-100' age group.
- 
-         thus, maximum customers belong to '25-50' age group.
-         
-### Customer Type
-
-3.1) 18.31 % customers have customer type 'First time'.
-
-3.2) 81.69 % customers have customer type 'returning'.
-       
-       thus, more customers have customer type 'returning'.
-
-### Type of travel
-
-4.1) 69.06 % customers have travel type 'Business'.
-
-4.2) 30.94 % customers have travel type 'Personal'.
-
-        thus, more customers have travel type 'Business'.
